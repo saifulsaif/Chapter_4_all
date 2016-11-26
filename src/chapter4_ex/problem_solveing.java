@@ -24,6 +24,7 @@ public class problem_solveing {
          if(wrong_count==2)
              break;
          //Level 1................................................
+          
           int number0 = (int)(Math.random()*100);
           int number1 = (int)(Math.random()*20);
           int number2 = (int)(Math.random()*20);
@@ -31,6 +32,7 @@ public class problem_solveing {
           int number4 = (int)(Math.random()*50);
           int number5 = (int)(Math.random()*170);
           int random = (int)(Math.random()*4);
+          
           // Level 2......................................................
           if(correct_count>5&&correct_count<=10){
           System.out.println("Level 2 now!\n");
@@ -87,6 +89,7 @@ public class problem_solveing {
           number3=number3_level4_try;
           number4=number4_level4_try;
           number5=number5_level4_try;
+          
           }
             // Level 5 ..................................................
            if(correct_count>20&&correct_count<=25){
