@@ -21,15 +21,16 @@ public class Ex_8_score {
         int score=0;
       
             System.out.println("Enter student name:");
-            name = cr.nextLine();
+            name = cr.next();
             System.out.println("Enter student score:");
             score =cr.nextInt();
             System.out.println("Enter 2nd student info ");
             System.out.println("Enter student name:");
-           String name2 = cr.nextLine();
+           String name2 = cr.next();
             System.out.println("Enter student score:");
           int  score2 =cr.nextInt();
-          if(score<score2)
+          System.out.println("The highest score and name");
+          if(score>score2)
               System.out.println(""+name+"  "+score);
           else
              System.out.println(""+name2+"  "+score2); 

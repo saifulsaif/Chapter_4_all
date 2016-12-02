@@ -11,14 +11,32 @@ package chapter4_ex;
 public class Ex_17_pattern {
 
     public Ex_17_pattern() {
+   
         
         System.out.println("Pattern1");
     
-        for(int i = 1;i<=7;i++)
+        for(int i = 1;i<=5;i++)
         {
-            for(int j=1;j<=i;j++)
-            {
-                System.out.print(j);
+               if(i==1)
+                    System.out.print("             ");
+               else if(i==2)
+                    System.out.print("          ");
+               else if(i==3)
+                    System.out.print("        ");
+               else if(i==4)
+                    System.out.print("      ");
+               else if(i==5)
+                    System.out.print("   ");
+               else if(i==6)
+                    System.out.print("  ");
+                
+            for(int j=1;j<=i*2;j++)
+            { 
+           
+               
+                
+                System.out.print("  "+j);
+               
                 
             }
              

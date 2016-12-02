@@ -10,7 +10,7 @@ public class Chapter4_ex {
         
         //Les4_2_guess l = new Les4_2_guess();
         //les4_3_game L = new les4_3_game();
-        problem_solveing p = new problem_solveing();
+        //problem_solveing p = new problem_solveing();
         //les4_4_sum a = new  les4_4_sum();
         //les4_5 a = new les4_5();
         //les4_6 n = new les4_6();
@@ -36,5 +36,15 @@ public class Chapter4_ex {
         //Ex_12_check a = new Ex_12_check();
         //Ex_12_checknnn a = new Ex_12_checknnn();
         //Ex_17_pattern a = new Ex_17_pattern();
+       // Ex_8_student a = new Ex_8_student();
+        //Ex_20_primeNumber a = new Ex_20_primeNumber();
+        //Ex_22_interest a = new Ex_22_interest();
+       // Ex_21_interest a = new Ex_21_interest();
+       // Ex_30_saving a = new Ex_30_saving();
+        //Ex_gcd a = new Ex_gcd();
+        //Multiplecation a = new Multiplecation();
+       // Prime_number a = new Prime_number();
+        //Ex_23_preceding a = new Ex_23_preceding();
+        //Ex_24_preceding a = new Ex_24_preceding();
     }
 }

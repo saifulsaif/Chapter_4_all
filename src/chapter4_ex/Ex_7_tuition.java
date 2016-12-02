@@ -11,17 +11,24 @@ package chapter4_ex;
 public class Ex_7_tuition {
 
     public Ex_7_tuition() {
-        int tuition_fee = 10000;
-         int main_fee=tuition_fee+(tuition_fee*5)/100;
+        double tuition_fee = 10000;
+         
          int total_fee=0;
-        for(int i = 1; i<=10;i++)
+         double four_year=0;
+         
+         for(int i = 1; i<=10;i++)
         {
-           
-             total_fee= main_fee+(main_fee*5)/100;
-            total_fee=total_fee+(total_fee*5)/100;
+            
+             tuition_fee =tuition_fee+(tuition_fee*0.05);
+            System.out.println("After 10 year tuition fee is ="+tuition_fee);
+            if(i<=4){
+            four_year = four_year +tuition_fee;}
+            
+            
         }
+         System.out.println("Tuition fee for four year:"+four_year);
         
-        System.out.println("After 10 year tuition fee is ="+total_fee);
+        
     }
     
     
